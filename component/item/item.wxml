@@ -1,0 +1,20 @@
+<view class="items" wx:for="{{items}}" wx:key="index">
+   <view class="img">
+     <image class="item_img" src="{{item.img}}"></image>
+    </view>
+    <view class="info">
+      <view class="unit">{{item.unit}}</view>
+      <view class="value">{{item.value}}</view>
+      <view class="line"></view>
+    </view>
+</view>
+<view class="position">
+<view class="positionimg">
+  <image class="positon_img" src="../../image/position.png"></image>
+</view>
+<view class="position_value">
+  <view>经度:{{position.jindu}}　</view>
+  <view>纬度:{{position.weidu}}　</view>
+  <view>海拔:{{position.haiba}}　</view>
+</view>
+</view>

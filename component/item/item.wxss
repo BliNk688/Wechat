@@ -1,0 +1,56 @@
+/* component/item/item.wxss */
+.positionimg,.position_value,.items,.img,.info{
+  display: inline-block;
+}
+.unit,.value,.position_value{
+  font-size:25rpx;
+
+}
+.unit{
+  padding-bottom: 20rpx;
+}
+.value
+,.unit{
+  padding-left: 20rpx;
+}
+.line{
+  width: 130rpx;
+  border-bottom:1px solid black;
+}
+.position_value{
+  text-align: center;
+  width: 500rpx;
+position: relative;
+top: -40rpx;
+}
+.items{
+ width: 40%;
+ margin-left: 10%;
+ margin-top: 80rpx;
+
+}
+.item_img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.positon_img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.position{
+  width: 90%;
+  margin-top: 80rpx;
+  margin-left: 10%;
+ }
+ .refresh{
+   width: 200rpx;
+   height: 90rpx;
+   background: #00b26a;
+   text-align: center;
+   line-height:90rpx;
+   border-radius: 8rpx;
+   margin: 80rpx auto;
+ }
+ .position_value view{
+   display: inline-block;
+ }

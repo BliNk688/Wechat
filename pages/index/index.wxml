@@ -1,0 +1,11 @@
+<view class="top">
+<view class="user" bindtap="goUser"><i class="iconfont icon-yonghu usericon"></i><text class="usertext">用户管理</text></view>
+<view class="refresh"><i class="iconfont icon-shuaxin usericon"></i><text class="refreshtext">刷新</text></view>
+</view>
+
+<list list="{{list}}"></list>
+
+<view class="bottom">
+  <view class="addeq">添加设备</view>
+  <view class="addgr">添加分组</view>
+</view>

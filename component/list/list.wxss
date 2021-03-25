@@ -1,0 +1,61 @@
+/* component/list/list.wxss */
+@import '../../icon/icon.wxss';
+
+.item{
+  height: 180rpx;
+}
+.logo{
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+.nameandnumber{
+  height: 130rpx;
+}
+.name{
+  font-size: 30rpx;
+}
+.color{
+  color: #1e9fff;
+}
+.number{
+  margin-top: 20rpx;
+  font-size: 20rpx;
+  color: gray;
+}
+.nameandnumber,.logo,.color,.button,.open,.close{
+  display: inline-block;
+}
+.logoimg{
+  width: 100rpx;
+  height: 80rpx;
+}
+.line{
+  border-bottom: 1px solid #e9e9e9;
+width: 90%;
+margin: 0 auto;
+}
+.button{
+position: absolute;
+left: 536rpx;
+margin-top: 30rpx;
+}
+.open,.close{
+  width: 100rpx;
+  height: 50rpx;
+  border-radius: 5rpx;
+  border: 3rpx solid #1e9fff;
+  color: #1e9fff;
+  line-height: 50rpx;
+  text-align: center;
+  margin-left: 20rpx;
+}
+.sz{
+  font-size: 40rpx;
+
+}
+.setting{
+  margin-left: 30rpx;
+  color: #1e9fff;
+  width: 10rpx;
+  display: inline-block;
+}

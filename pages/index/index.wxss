@@ -1,0 +1,50 @@
+@import '../../icon/icon.wxss';
+.user,.refresh{
+  display: inline-block;
+}
+.top{
+  height: 80rpx;
+width: 100%;
+background: #1E9FFF;
+}
+.refresh{
+  float: right;
+  margin-right: 20rpx;
+}
+.refreshtext{
+  
+  line-height: 80rpx;
+  padding-left: 10rpx;
+  color: white;
+  font-size:20rpx;
+}
+.usertext{
+  padding-left: 10rpx;
+  color: white;
+  font-size:20rpx;
+}
+.user{
+  margin-left: 20rpx;
+}
+.usericon{
+  color: white;
+  line-height: 80rpx;
+}
+
+.addeq,.addgr{
+  width: 40%;
+  height: 80rpx;
+  display: inline-block;
+  margin: 0 30rpx;
+  border-radius: 40rpx;
+  border: 2rpx solid #1e9fff;
+  text-align: center;
+  line-height: 80rpx;
+  color: #1e9fff;
+}
+.bottom{
+  margin-top: 800rpx;
+
+  margin-left: 30rpx;
+}
+

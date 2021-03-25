@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "item": "../../component/item/item"
+  },
+  "navigationBarTitleText":"农业物联网监控系统"
+}

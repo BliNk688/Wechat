@@ -1,0 +1,14 @@
+<!--component/list/list.wxml-->
+<view class="item" wx:for="{{list}}" wx:key="index">
+  <view class="logo"><image class="logoimg" src="../../image/logo.png"></image></view>
+
+  <view class="nameandnumber">
+    <view class="name">{{item.name}}</view>
+    <view class="number"><view class="color">{{item.number}}</view>个设备</view>
+  </view>
+<view class="button">
+  <view class="close" bindtap="toData" data-index="{{index}}"  wx:for-index="index">查看</view>
+  <view class="setting"><icon class="iconfont icon-shezhi sz"></icon></view>
+</view>
+  <view class="line"></view>
+</view>
